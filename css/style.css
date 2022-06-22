@@ -1,0 +1,218 @@
+/* 1. Selector de tipo etiqueta */
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+/* HEADER------------ */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    color: white;
+    padding: 15px;
+    background-image: linear-gradient(to left, rgb(248, 242, 242), rgb(172, 65, 32));
+}
+
+header nav ul li {
+    border: 2px solid black;
+    margin: 10px;
+    font-size: 10px;
+}
+    
+/* MAIN----------- */
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    padding: 10px;
+    color: rgb(138, 44, 44);
+
+
+}
+
+nav ul li a:hover {
+    font-size: 25px;
+    transition: 500ms;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(138, 44, 44);
+    font-size: 20px;
+}
+
+.nav ul li ol {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 2.0vw;
+}
+
+.img {
+    width: 100%;
+}
+
+/* BODY */
+body {
+    background-image: linear-gradient(to bottom, rgb(248, 242, 242), rgb(172, 65, 32));
+}
+
+.tituloconteiner {
+    width: 10%;
+}
+
+.maincontacto {
+    text-align: center;
+    font-size: x-large;
+}
+
+main nav {
+    height: auto;
+    width: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%
+}
+
+.mainmenu {
+    display: inline;
+}
+
+.ubicacionlaposta {
+    display: flex;
+    width: 100%;
+}
+
+.galeriafotos {
+    display: grid;
+    height: 1700px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px 500px 500px;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 50px;
+}
+
+.gridimg {
+    width: 70%;
+    height: 90%;
+    justify-self: center;
+
+}
+
+.imagen1 {
+    width: 100%;
+    height: 100%;
+
+}
+
+.maingaleria {
+    height: auto;
+    width: 100%;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 40%;
+    height: 0;
+    position: relative;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
+
+.tituloubicacion {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    padding-bottom: 2.5%
+}
+
+.titulo {
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: large;
+}
+
+/* nomenclatura 
+1.camelcase => letraGrandeOscura
+2.snake_case => letra_grande_oscura
+3.kebab-case => letra-grande-oscura
+*/
+
+/* ----------- CONTACTO HTML ------------ */
+.formulario {
+    background-color: chocolate;
+}
+
+.logo:hover {
+    width: 300px;
+    height: 200px;
+
+}
+
+/* FOOTER-------------- */
+.footer {
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
+
+.footer a {
+    margin: 60px;
+    display: inline;
+    background-color: aqua;
+    text-decoration: none;
+    color: black;
+}
+
+.peluca a{
+    padding: 20px;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.peluca {
+    text-align: center; 
+    border: 2px solid rebeccapurple;
+}
+
+
+.barra-principal {
+    width: 100%;
+    text-align: center;   
+}
+
+.barra-principal img {
+    display: inline-block;
+    margin: 30px;
+}

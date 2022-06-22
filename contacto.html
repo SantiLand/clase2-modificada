@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>LA POSTA RESTAURANTE</title>
+</head>
+<body>
+    <header>
+        <div class="barra-principal">
+            <a href="index.html"><img src="fotosdeplatos/la-posta-sin-fondo.png"></a>
+        </div>
+    </header>
+    <nav class="peluca">       
+        <div>
+                <a href="index.html">INICIO</a>
+                <a href="./contacto.html">CONTACTO</a>
+                <a href="./menu.html">MENU</a>
+                <a href="./UBICACION.html">UBICACION</a>
+                <a href="./galeria.html">GALERIA</a>
+        </div>
+    </nav>
+    <br>
+    <main class="mainindex">
+        <main class="maincontacto">
+            <h1>CONTACTANOS</h1>
+            <!-- Get: informacion no sensible - Post: informacion sensible -->
+            <form class="contactos" action="#" method="get">
+                <input type="text" placeholder="Nombre completo" name="nombre-completo">
+                <br>
+                <input type="email" placeholder="Josefernandez@gmail.com">
+                <br><br>
+                <textarea name="" id="" cols="50" rows="10"></textarea>
+                <br>
+                <!-- checkbox -->
+                <label>
+                    <input type="checkbox">
+                    <spam>Suscribirme al newsletter</spam>
+                </label>
+                <br><br>
+                <!-- Radio button -->
+                <label>
+                    <span>Hombre</span>
+                    <input name="sexo" value="hombre" type="radio">
+    
+                    <span>Mujer</span>
+                    <input name="sexo" value="mujer" type="radio">
+                    
+                    <span>Otro</span>
+                    <input name="sexo" value="otro" type="radio">
+                </label>
+                <br><br>
+                <select name="Pais">
+                    <option value="seleccion">Seleccione su pais</option>
+                    <option value="Arg">Argentina</option>
+                    <option value="Chl">Chile</option>
+                    <option value="Ven">Venezuela</option>
+                    <option value="Uru">Uruguay</option>
+                    <option value="Par">Paraguay</option>
+                    <option value="Bol">Bolivia</option>
+                    <option value="Br">Brasil</option>
+                </select>
+                <br><br>
+                <input type="submit">
+                <input type="reset" value="Reset">
+            </form>
+        </main>
+    </main>
+    <!-- FOOTER: PIE DE PAGINA -->
+    <footer>
+        <!-- FOOTER -->
+        <br>
+        <!-- FOOTER -->
+        <nav class="footer">
+                <a target="_blank" href="https://www.facebook.com/">Facebook</a>
+                <a target="_blank" href="https://www.instagram.com">Instagram</a>
+                <a target="_blank" href="https://www.twitter.com">Twitter</a>
+        </nav>
+        <br>
+    </footer>
+</body>
+
+</html>
